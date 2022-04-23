@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LitData Solution</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a herf="index.html"><img src="img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()" ></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact us.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Blog Posts</h1>
+
+    </section>
+
+
+
+<!-- -----blog page content----- -->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="img/logo.png">
+            <h2>Blog Posts</h2>
+            <p>Like AI and Machine Learning, Robotic Process Automation, or RPA, is another technology that is automating jobs. RPA is the use of software to automate business processes such as interpreting applications, processing transactions, dealing with data, and even replying to emails. RPA automates repetitive tasks that people used to do. 
+
+                Although Forrester Research estimates RPA automation will threaten the livelihood of 230 million or more knowledge workers or approximately 9 percent of the global workforce, RPA is also creating new jobs while altering existing jobs. McKinsey finds that less than 5 percent of occupations can be totally automated, but about 60 percent can be partially automated.
+                
+                For you as an IT professional looking to the future and trying to understand latest technology trends, RPA offers plenty of career opportunities, including developer, project manager, business analyst, solution architect and consultant. And these jobs pay well. An RPA developer can earn over ₹534K per year - making it the next technology trend you must keep a watch on!
+                
+                Mastering RPA will help you secure high paying jobs like:
+                RPA Developer
+                RPA Analyst
+                RPA Architect
+            </p> 
+            <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                <form  class="comment-form">
+                    <input type="text" placeholder=" Enter Name">
+                    <input type="email" placeholder=" Enter Email">
+                    <textarea row="5" placeholder="Your comments"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    
+                </form>
+            </div>
+         
+        </div>
+        <div class="blog-right">
+            <h3>Post categories</h3>
+            <div>
+                <span>Busines Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>23</span>
+            </div>
+            <div>
+                <span>Data Vizulazation</span>
+                <span>40</span>
+            </div>
+            <div>
+                <span>ML </span>
+                <span>22</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!-- -----Footer--- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lit Data is the first Nepali company to provide data consultation and data engineering solution to local business.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made by LitData</p>
+</section>
+
+
+
+
+
+
+
+<!-- ----JavaScript for toggle menu------ -->
+<script>
+    var navLinks = document.getElementById('navLinks');
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+    
+</html>
