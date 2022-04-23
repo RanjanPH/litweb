@@ -66,7 +66,7 @@ nav img{
 }
 .text-box{
    width: 90%;
-   color: #fff;
+   color: rgb(9, 2, 2);
    position: absolute;
    top: 50%;
    left: 50%;
@@ -76,19 +76,19 @@ nav img{
 .text-box h1{
     font-size: 62px;
     margin-bottom: 10px;
-    color: #fff;
+    color: rgb(197, 23, 23);
 }
 .text-box p{
     font-size: 18px;
     line-height: 30px;
     letter-spacing: 1px;
     margin:10px 0 40px;
-    color:#fff;
+    color:#100807;
 }
 .hero-btn{
-    background:transparent;
+    background:solid #f44336;
     display: inline-block;
-    color: #fff;
+    color: rgb(223, 32, 7);
     font-size: 18px;
     border: 1px solid #100807;
     padding: 10px 20px;
@@ -99,8 +99,8 @@ nav img{
     position: relative;
 }
 .hero-btn:hover{
-    background: #f44336;
-    color: #fff;
+    background: #fff;
+    color: rgb(94, 169, 19);
     border: 1px solid #fff;
     transition: 1s  ;
 }
@@ -345,7 +345,7 @@ h3{
 .contact-col div{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     margin-bottom: 40px ;
     
     
@@ -373,25 +373,16 @@ h3{
 
 .contact-col input, .clients-col textarea{
     width: 100%;
-    padding: 10px;
-    border: 1px solid rgb(15, 180, 6);
+    padding: 15px;
     margin-bottom: 17px;
-    border-radius: 5px;
-    font-size: 14px;
-    font-weight: 300;
+    outline: none;
+    border: 1px solid #ccc;
+
 
 }
-.contact-col .hero-btn{
-    width: 40%;
-    padding: 10px;
-    border: 1px solid rgb(15, 180, 6);
-    border-radius: 5px;
-    font-size: 14px;
-    font-weight: 300;
-    background: #090909;
-    color: #fff;
-    transition: 0.5s;
-}
+
+
+.con
 /* --footer--- */
 .footer{
     width: 100%;
@@ -448,7 +439,7 @@ h3{
     border-radius: 10px;
     margin-bottom:5%;
     position: relative;
-    text-align: center;
+    text-align: right;
     
 }
 
@@ -569,7 +560,7 @@ h3{
 .contact-us{
     border:1px solid #ccc;
     margin: 50px 0;
-    padding:  10px 20px;
+    
 }
 .contact-us h3{
     text-align: left;
@@ -582,14 +573,4 @@ h3{
     margin-bottom: 10px;
     margin: 15px 0;
     background: #f0f0f0;
-}
-.contact-us button{
-    background: #ff0000;
-    color: #fff;
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px;
-    font-size: 18px;
-    font-weight: 600;
-    cursor: pointer;
 }
